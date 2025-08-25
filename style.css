@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    width: 5vw;
+    height: 5vh;
+}
+
+nav {
+    position: relative;
+    top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: sans-serif;
+    font-size: 16 px;
+    font-weight: 400;
+    color: black;
+
+
+}
+
+.right {
+    display: flex;
+    align-content: center;
+    font-family: sans-serif;
+    font-size: 24 px;
+    font-weight: 400;
+    color: black;
+}
+
+.right ul :hover {
+    cursor: pointer;
+    color: #16F769;
+
+
+}
+
+.right ul {
+    display: flex;
+    gap: 50px;
+}
+
+.right ul li {
+    list-style: none;
+}
+
+.button ul {
+    text-align: end;
+    gap: 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+    font-size: medium;
+    list-style: none;
+}
+
+.video {
+    width: 10px;
+
+}
+
+.container {
+    background-color: white;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card-one {
+    width: 18rem;
+    height: 60vh;
+    border: transparent;
+    border-radius: 10px;
+    background-color: #3837e4;
+    color: #fff;
+    text-align: left;
+    margin-bottom: 1rem;
+    padding: 20px;
+    font-weight: bolder;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+
+
+
+
+.card-two {
+    width: 18rem;
+    height: 60vh;
+    border: transparent;
+    border-radius: 10px;
+    background-color: #d2ffd5;
+    color: #00493e;
+    text-align: left;
+    margin-bottom: 1rem;
+    padding: 20px;
+    font-weight: bolder;
+    font-size: 32px;
+    line-height: 40px;
+
+}
+
+.card-three {
+    width: 18rem;
+    height: 60vh;
+    border: transparent;
+    border-radius: 10px;
+    background-color: #7f5ffa;
+    color: #d6ffea;
+    text-align: left;
+    margin-bottom: 1rem;
+    padding: 20px;
+    font-weight: bolder;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.card-four {
+    width: 18rem;
+    height: 60vh;
+    border: transparent;
+    border-radius: 10px;
+    background-color: #001942;
+    color: #fff;
+    text-align: left;
+    margin-bottom: 1rem;
+    padding: 20px;
+    font-size: 32px;
+    font-weight: bolder;
+    line-height: 40px;
+}
